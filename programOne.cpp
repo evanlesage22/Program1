@@ -1,6 +1,6 @@
 #include <iostream>
-int main() {
-
+int main()
+{
   int array[10] = {}; //pt 1a init array
 
   for (int i = 0; i < 10; i++) //pt 1b filling array
@@ -20,4 +20,37 @@ int main() {
     std::cout << *ptr << '\n'; //1e print new values
     ptr++;
   }
+
+
+
+
+
+  std::cout << '\n' << "exercise 4" << '\n';
+  int myArray[5][5] = {};
+  int *ptr2 = &myArray[0][0];
+
+  for (int j = 0; j < 5; j++){
+    for (int k = 0; k < 5; k++){
+      if (j == k){
+        *ptr2 = 1;
+      }else{
+        *ptr2 = 0;
+      }
+      ptr2++;
+    }
+  }
+
+  ptr2 = &myArray[0][0];
+  for (int j = 0; j < 5; j++){
+    for (int k = 0; k < 5; k++){
+      std::cout << *ptr2;
+      ptr2++;
+    }
+    std::cout << '\n';
+  }
+
+
+
 }
+
+
