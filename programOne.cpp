@@ -1,6 +1,6 @@
 #include <iostream>
-int main()
-{
+int main(){
+
   std::cout << "exercise 1" << '\n';
   int array[10] = {}; //pt 1a init array
 
