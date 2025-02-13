@@ -70,3 +70,50 @@ int main(){
   }
   return 0;
 }
+
+
+
+/*
+instructions: 
+1. Write a C program that does the following:
+  a. Declare a 1-dimensional array of length 10.
+  b. Using conventional array access methods, fill the array with consecutive
+    numbers starting with 0.
+  c. Print out the contents of the array using conventional array access methods.
+  d. Now using a memory pointer, fill the array with consecutive numbers starting
+    with 100.
+  e. Print out the contents of the array using a memory pointer.
+
+
+  4. Write a C program that fills creates an identity matrix. (An identity matrix is a square
+matrix that has all 1's on the diagonal.)
+
+  Example of a 5 by 5 identity matrix:
+
+1 0 0 0 0
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+0 0 0 0 1
+
+  
+  a. Use conventional array accessing methods to create a 5 by 5 identity matrix.
+
+  b. Use conventional array accessing methods to display the matrix.
+
+  c. Use the pointer/addressing methods discussed in the chapter to display the
+matrix.
+
+  d. Use the pointer/addressing methods discussed in the chapter to fill the matrix.
+
+  e. Use pointer/addressing methods to exchange rows 0 and 4 of the identity
+matrix.
+
+  f. Write out the result; it should appear as below:
+
+0 0 0 0 1
+0 1 0 0 0
+0 0 1 0 0
+0 0 0 1 0
+1 0 0 0 0
+  */
